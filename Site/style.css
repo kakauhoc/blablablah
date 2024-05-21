@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.cabecalho{
+    background-color: rgb(121, 23, 23);
+    color: rgb(218, 207, 207);
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 0;
+    font-size: 30px;
+}
+
+.cabecalho-imagem{
+    width: 20%;
+    /*Tamanho da imagem da logo.*/
+    /*Se for texto usa o "font-size: 20px;"*/
+}
+
+.cabecalhoListaItem{
+    display: inline-block;
+    margin: 0 16px;
+    padding: 24px 0;
+}
+
+.sobre-imagem{
+    width: 25%;
+}
+
+.sobre{
+    background-image: linear-gradient(rgb(121, 23, 23), #c22307);
+    color:rgb(218, 207, 207);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.sobre-conteudo{
+    width: 35%;
+}
+
+.sobretitulo{
+    padding: 24px 0;
+}
+
+.membro-imagem{
+    width: 120px;
+}
+
+.membro-div{
+    text-align:center;
+}
+
+.membros-titulo{
+    text-align: center;
+    padding: 50px 0;
+}

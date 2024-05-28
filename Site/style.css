@@ -57,3 +57,9 @@
     text-align: center;
     padding: 50px 0;
 }
+
+.membros-todos{
+display:grid;
+grid-template-columns: 10% 15% 15% 15% 15% 40%;
+
+}
